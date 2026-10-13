@@ -272,3 +272,6 @@ studio/backend/requirements/.*-filtered-*.txt
 tests/security/fixtures/malicious_wheel.whl
 tests/security/fixtures/malicious_sdist.tar.gz
 tests/security/fixtures/clean_wheel.whl
+
+# Local Unsloth Studio runtime state, caches, databases, logs, and generated assets.
+.studio-local/
